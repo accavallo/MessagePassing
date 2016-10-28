@@ -180,7 +180,6 @@ int main(int argc, const char * argv[]) {
             (*seconds)++;
             *nano_seconds = *nano_seconds % 1000000000;
         }
-//        waitpid(0, NULL, WNOHANG);
     }
 
     /* Wait for all children to finish if exiting normally. */
